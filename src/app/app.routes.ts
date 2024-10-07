@@ -5,6 +5,7 @@ import { HomeComponent } from './core/pages/home/home.component';
 import { CampaignsComponent } from './core/pages/campaigns/campaigns.component';
 import { CasesComponent } from './core/pages/cases/cases.component';
 import { ReportsComponent } from './core/pages/reports/reports.component';
+import { AboutComponent } from './core/pages/about/about.component';
 
 export const routes: Routes = [
     {
@@ -21,5 +22,9 @@ export const routes: Routes = [
     },
     {
         path: 'reports', component: ReportsComponent
+    },
+    {
+        path: 'about', component: AboutComponent
     }
+
 ];
