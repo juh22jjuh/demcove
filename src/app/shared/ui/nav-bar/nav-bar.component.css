@@ -5,11 +5,3 @@
 .hover-btn:hover {
     background-color: #FFFBE6;
 }
-
-.underline {
-    transition: 0.3s ease, color 0.3s ease;
-}
-
-.underline:hover {
-    border-bottom: 1px solid #FFFBE6;
-}
