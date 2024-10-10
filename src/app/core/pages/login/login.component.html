@@ -1,31 +1,21 @@
-<form
-    class="row g-3 container-fluid text-black w-100 bg-danger d-flex flex-column justify-content-center align-items-center needs-validation"
-    novalidate
-    style="height: 100vh;">
-    <div class=" d-flex bg-white flex-column align-items-center w-25"
-        style="height: 60vh; border-radius: 10px; padding-top: 3%;">
-        <div class="w-75 d-flex flex-column align-items-center mb-5">
-            <label class="form-label h1 text-danger">Dencove Login</label>
-            <label class="text-body-secondary">Acesse ao sistema de gestão de casos de dengue</label>
+<div class="container-fluid " >
+  <div class="container-sm border border-0 " style="margin-right: 0,05%; margin-left: 0,05%; margin-top: 10%; ">
+    <div class="shadow p-3 mb-5 bg-body-tertiary rounded" style="margin-left: 30%; margin-right: 30%;">
+    <form>
+        <h1 style="margin-left: 40%; margin-right: 40%;">Login</h1>
+        <div class="mb-3" style="margin-right: 15%; margin-left: 15%; margin-bottom: 10%;">
+          <label for="endereco" class="form-label">Email</label>
+          <input type="email" class="form-control" id="endereco" >
         </div>
-        <div class="form-group w-75 was-validated">
-            <label class="form-label">Email</label>
-            <input type="email" class="form-control border border-danger" required>
-            <div class="invalid-feedback">
-                Por favor digite o email
-            </div>
+        <div class="mb-3"style="margin-right: 15%; margin-left: 15%; margin-bottom: 10%;">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
-        <div class="form-group w-75 mb-3 was-validated">
-            <label class="form-label">Senha</label>
-            <input type="password" class="form-control border border-danger " required>
-            <div class="invalid-feedback">
-                Por favor digite a senha
-            </div>
-        </div>
-        <div class="w-75 d-flex flex-column align-items-center gap-3">
-            <button class="btn btn-outline-danger w-100" type="submit">Login</button>
-            <a class="text-danger" style="cursor: pointer;">Esqueceu a senha?</a>
-            <a routerLink="/" routerLinkActive="active" class="text-danger">Voltar para o início</a>
-        </div>
+        <a routerLink="/register" routerLinkActive="true" style="margin-top: 1%; margin-right: 30%; margin-left: 15%; margin-bottom: 2px;">Cadastrar</a>
+        <a routerLink="/forgotpassword" routerLinkActive="true" style="margin-top: 1%; margin-right: 30%; margin-left: 15%; margin-bottom: 2px;">Esqueci minha senha</a>
+        <button type="submit" class="btn btn-primary"  style="margin-top: 1%; margin-right: 20%; margin-left: 15%; margin-bottom: 1px;">Entrar</button>
+      </form>
     </div>
-</form>
+  </div>
+</div>
+<br>

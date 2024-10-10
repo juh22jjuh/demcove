@@ -6,7 +6,9 @@ import { CampaignsComponent } from './core/pages/campaigns/campaigns.component';
 import { CasesComponent } from './core/pages/cases/cases.component';
 import { ReportsComponent } from './core/pages/reports/reports.component';
 import { AboutComponent } from './core/pages/about/about.component';
-
+import { CaseregistrationComponent } from './Adm/caseregistration/caseregistration.component';
+import { RegisterComponent } from './core/pages/register/register.component';
+import { ForgotpasswordComponent } from './core/pages/forgotpassword/forgotpassword.component';
 export const routes: Routes = [
     {
         path: 'login', component: LoginComponent
@@ -25,6 +27,15 @@ export const routes: Routes = [
     },
     {
         path: 'about', component: AboutComponent
+    }, 
+    {
+        path: 'casesregistration', component: CaseregistrationComponent
+    }, 
+    {
+        path: 'register', component: RegisterComponent
+    }, 
+    {
+        path: 'forgotpassword', component: ForgotpasswordComponent
     }
 
 ];
